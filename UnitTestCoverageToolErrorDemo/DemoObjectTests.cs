@@ -45,7 +45,7 @@ namespace UnitTestCoverageToolErrorDemo
         }
 
         [Test]
-        [Ignore("Execution of test results in no test code coverage.")]
+        //[Ignore("Execution of test results in no test code coverage.")]
         public async Task T04_Simulate_ExceptionInAsyncTask_FromAsyncVoid()
         {
             var sut = new DemoObject();
